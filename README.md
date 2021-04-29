@@ -14,4 +14,4 @@ Generate with next typescript and tailwindcss. support all extension file.
 
 > Open localhost:3000/params ('file search can be from params here')
 
-![Demo file](demo_carifile.gif)
+![Demo file](sc.png)
