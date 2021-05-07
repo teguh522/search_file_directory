@@ -46,7 +46,7 @@ export default function Home({ files }: InferGetServerSidePropsType<typeof getSe
               file.map((item) => {
                 let convert = item.split("/public").pop();
                 return (
-                  <p className="m-4 p-2 bg-blue-200 rounded-2xl"><a href={convert} target="_blank" rel="noopener noreferrer">{convert}</a> </p>
+                  <p className="m-4 p-2 bg-blue-200 rounded-2xl"><a href={convert} rel="noopener noreferrer">{convert}</a> </p>
                 )
               })
             }

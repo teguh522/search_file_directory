@@ -8,6 +8,8 @@ RUN yarn install
 
 COPY . .
 
+RUN mkdir /app/carifile/public/files
+
 RUN yarn build
 
 CMD ["yarn","start"]
