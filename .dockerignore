@@ -1,0 +1,4 @@
+node_module
+.gitignore
+sc.png
+yarn.lock

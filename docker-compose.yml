@@ -1,0 +1,22 @@
+version: "3.8"
+
+services: 
+    app:
+        container_name: app_carifile
+        build: .
+        image: app_carifile
+        ports: 
+            - 3300:3300
+        environment: 
+            - NODE_ENV=production
+        volumes: 
+            - type: bind
+              source: /home/mmimy/berkasrm
+              target: /app/carifile/public/files
+        restart: always
+        networks: 
+            - appfile_network
+
+networks: 
+    appfile_network:
+        name: appfile_network
