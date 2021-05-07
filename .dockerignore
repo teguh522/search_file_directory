@@ -1,5 +1,7 @@
 node_module
 .gitignore
+.git
+Dockerfile
 sc.png
 yarn.lock
 /public/files
