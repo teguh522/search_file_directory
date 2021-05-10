@@ -1,6 +1,7 @@
 node_module
 .gitignore
 .git
+.next
 Dockerfile
 sc.png
 yarn.lock
